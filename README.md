@@ -14,10 +14,14 @@ We are working from the data present here:
 
 ## Starting the system
 
-
+```
 git pull git@github.com:simpledotorg/h360tk_ethiopia_medisoft.git
 cd h360tk_ethiopia_medisoft
-docker compose up
+docker compose up -d
+```
 
 ## Loading the data
+```
+
+```
 
