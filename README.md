@@ -5,10 +5,7 @@
 
 The goal of this development is to illustrate how we can integrate data from Medisoft into the Hearts360Tookit to generate dashboards easily
 
-
-## data location
-
-We are working from the data present here:
+We are working from the data presented here (test data, containing no PII, publicly available):
 - https://hearts360.medisoft.rw/data_sharing_export.php
 
 
