@@ -9,7 +9,7 @@ The goal of this development is to illustrate how we can integrate data from Med
 ## data location
 
 We are working from the data present here:
-- https://hearts360.medisoft.rw/data_sharing_export.php?facility_id=19
+- https://hearts360.medisoft.rw/data_sharing_export.php
 
 
 ## Starting the system
@@ -22,6 +22,11 @@ docker compose up -d
 
 ## Loading the data
 ```
-
+ docker exec -it python_processing sh -c "bash /scripts/do_all.sh"
 ```
+
+This script will 
+- iterate on facilities and download relevant files (Patients, Blood pressures, Blood sugars)
+- load that data into the h360tk database
+
 
