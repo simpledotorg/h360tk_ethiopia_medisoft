@@ -29,7 +29,7 @@ This script will
 
 ### Accessing the dashboards
 
-The dashboards will be accessible here (credentials: admin/your_secure_password):
+The dashboards will be accessible here (credentials: `admin`/`your_secure_password`):
 - http://localhost:3000/
 
 You can start with the global dashboard, and drill down to the facility:
