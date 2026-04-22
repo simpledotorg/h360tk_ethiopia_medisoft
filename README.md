@@ -28,3 +28,12 @@ This script will
 - load that data into the h360tk database
 
 ### Accessing the dashboards
+
+The dashboards will be accessible here (credentials: admin/your_secure_password):
+- http://localhost:3000/
+
+You can start with the global dashboard, and drill down to the facility:
+- http://localhost:3000/d/heart360_drilldown/hearts360-global-dashboard
+
+All facilities are in `Test Region` and in `Test District`
+
